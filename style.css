@@ -119,15 +119,21 @@ body{
     width: 40px;
 }
 
+#team{
+    margin-top: -20px;
+}
+
 .card-title{
     padding-left:10px;
     padding-right: 10px;
+    font-size: 22px;
 }
 
 .card-subtitle{
     color: var(--gray-blue);
     padding-left:10px;
     padding-right: 10px;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 960px) {
@@ -141,6 +147,10 @@ body{
 
     .content{
         font-size: calc(100% - 4px);
+    }
+
+    #team{
+        margin-top: 0px;
     }
 
     .cards{
